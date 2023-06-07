@@ -1,0 +1,142 @@
+* {
+    color: white;
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100%;
+    background-color: black;
+}
+
+#header {
+    font-family: 'Ubuntu';
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: 800px;
+    background-image: url(imgs/back_top.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header {
+    position: relative;
+    height: 60px;
+    background-color: transparent;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    margin-left: 10%;
+}
+
+.hrefs {
+    display: flex;
+    gap: 5rem;
+}
+
+.hrefs a {
+    text-decoration: none;
+}
+
+.btn {
+    text-align: center;
+    width: calc(140px - 4px);
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+    padding: 12px 24px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10%;
+    border: 2px solid #1F6CC4;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+.container {
+    position: relative;
+    z-index: 0;
+    height: calc(800px - 60px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.container_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 450px;
+    width: 640px;
+}
+
+.container_img {
+    position: relative;
+    height: 100px;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.colorfull {
+    font-size: 72px;
+    font-family: 'Teko';
+    font-weight: bold;
+    height: 80px;
+    width: 340px;
+    position: relative;
+    background-image: linear-gradient(135deg, #3083E2, #05FFFC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container_text h6 {
+    font-size: 24px;
+    font-family: 'Ubuntu';
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+}
+
+.btns a {
+    text-align: center;
+    width: 118px;
+    text-decoration: none;
+    border-radius: 100px;
+    padding: 10px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+.btn_fullGradientS1 {
+    background-image: linear-gradient(135deg, #1F6CC4, #00EEEB);
+}
+
+.btn_demo {
+    border: 2px solid #1F6CC4;
+}
+
+.container h2 {
+    font-size: 42px;
+}

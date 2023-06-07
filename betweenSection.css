@@ -1,0 +1,93 @@
+.between1_2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    z-index: 1;
+    width: 100%;
+    height: 300px;
+    gap: 20px;
+}
+
+.between1_2::before {
+    content: "";
+    width: 100%;
+    height: 300px;
+    background-image: url(imgs/btw1-2.png);
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.4;
+    position: absolute;
+    z-index: -1;
+}
+
+.g2,
+.copterra {
+    background: rgba(50, 51, 105, 0.3);
+    border-radius: 30px;
+    margin-top: -100px;
+    opacity: 100%;
+    height: 200px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.obj_btw {
+    font-weight: 300;
+    font-style: italic;
+    font-family: 'Ubuntu';
+    font-size: 30px;
+    margin-top: -100px;
+}
+
+.text_btw_g2,
+.text_btw_copterra {
+    font-family: 'Teko';
+    font-size: 24px;
+}
+
+.rating-1,
+.rating-2 {
+    width: 200px;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.star-1,
+.star-2 {
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+    translate: .2s;
+}
+
+.star-1:hover,
+.star-2:hover,
+.star-1:hover~.star-1,
+.star-2:hover~.star-2 {
+    color: #00EEEB;
+}
+
+.rating-1[data-total-value="1"] .star-1:nth-child(n+5),
+.rating-1[data-total-value="2"] .star-1:nth-child(n+4),
+.rating-1[data-total-value="3"] .star-1:nth-child(n+3),
+.rating-1[data-total-value="4"] .star-1:nth-child(n+2),
+.rating-1[data-total-value="5"] .star-1:nth-child(n+1),
+.rating-2[data-total-value="1"] .star-2:nth-child(n+5),
+.rating-2[data-total-value="2"] .star-2:nth-child(n+4),
+.rating-2[data-total-value="3"] .star-2:nth-child(n+3),
+.rating-2[data-total-value="4"] .star-2:nth-child(n+2),
+.rating-2[data-total-value="5"] .star-2:nth-child(n+1) {
+    color: yellowgreen;
+}

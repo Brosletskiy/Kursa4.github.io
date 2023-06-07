@@ -1,0 +1,101 @@
+#section2 {
+    position: relative;
+    z-index: 1;
+    background-image: url(imgs/backS2.png);
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1200px;
+    width: 100%;
+    opacity: 100%;
+    z-index: 0;
+}
+
+.FS2 {
+    width: 100%;
+    height: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.FS2 h1 {
+    font-size: 50px;
+    font-family: 'Teko';
+}
+
+.colS2 {
+    width: 100%;
+    height: 1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.R1,
+.R2 {
+    display: inline-flex;
+    gap: 30px;
+}
+
+.R1 .R1C1,
+.R1 .R1C2,
+.R2 .R2C1,
+.R2 .R2C2 {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    background: rgba(50, 51, 105, 0.3);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.topS2_1 {
+    font-weight: 900;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 350px;
+    margin-top: 15px;
+    gap: 20px;
+    margin-left: 20px;
+}
+
+.topS2_1 h3 {
+    width: 180px;
+    font-family: 'Teko';
+    font-size: 25px;
+}
+
+.colorS2 {
+    font-size: 45px;
+    font-weight: 900;
+    font-family: 'Teko';
+    position: relative;
+    background-image: linear-gradient(135deg, #3083E2, #05FFFC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.S2_ul li {
+    margin-top: 15px;
+    margin-left: 30px;
+    color: #00EEEB;
+}
+
+.S2_ul li span {
+    line-height: 1.5;
+    color: white;
+    font-family: 'Ubuntu';
+}
